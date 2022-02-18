@@ -1,0 +1,7 @@
+chromium-browser: /usr/bin/chromium-browser /usr/lib64/chromium-browser /etc/chromium-browser
+google-chrome: /usr/bin/google-chrome /usr/share/man/man1/google-chrome.1.gz
+opera: /usr/bin/opera /usr/lib64/opera
+yandex:
+comodo:
+theworld:
+tor:

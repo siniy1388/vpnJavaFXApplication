@@ -1,0 +1,77 @@
+#Button {         
+    -fx-graphic: url('../img/chronium.png');
+    /*-fx-background-image: url("sun.png");*/
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:left;   
+    -fx-background-radius: 5em; 
+    -fx-min-width: 3px; 
+    -fx-min-height: 3px; 
+    -fx-max-width: 3px; 
+    -fx-max-height: 3px;
+} 
+#Button2 {         
+    -fx-graphic: url('../img/Chrome.png');
+    /*-fx-background-image: url("sun.png");*/
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:left;   
+    -fx-background-radius: 5em; 
+    -fx-min-width: 3px; 
+    -fx-min-height: 3px; 
+    -fx-max-width: 3px; 
+    -fx-max-height: 3px;
+} 
+#Button3 {         
+    -fx-graphic: url('../img/comodo_dragon.png');
+    /*-fx-background-image: url("sun.png");*/
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:left;   
+    -fx-background-radius: 5em; 
+    -fx-min-width: 3px; 
+    -fx-min-height: 3px; 
+    -fx-max-width: 3px; 
+    -fx-max-height: 3px;
+} 
+#Button4 {         
+    -fx-graphic: url('../img/yandex_browser.png');
+    /*-fx-background-image: url("sun.png");*/
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:left;   
+    -fx-background-radius: 5em; 
+    -fx-min-width: 3px; 
+    -fx-min-height: 3px; 
+    -fx-max-width: 3px; 
+    -fx-max-height: 3px;
+} 
+#Button5 {         
+    -fx-graphic: url('../img/Opera.png');
+    /*-fx-background-image: url("sun.png");*/
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:left;   
+    -fx-background-radius: 5em; 
+    -fx-min-width: 3px; 
+    -fx-min-height: 3px; 
+    -fx-max-width: 3px; 
+    -fx-max-height: 3px;
+} 
+#Button6 {         
+    -fx-graphic: url('../img/TheWorld.png');
+    /*-fx-background-image: url("sun.png");*/
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:left;   
+    -fx-background-radius: 5em; 
+    -fx-min-width: 3px; 
+    -fx-min-height: 3px; 
+    -fx-max-width: 3px; 
+    -fx-max-height: 3px;
+} 
+#Button7 {         
+    -fx-graphic: url('../img/Tor.png');
+    /*-fx-background-image: url("sun.png");*/
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:left;   
+    -fx-background-radius: 5em; 
+    -fx-min-width: 3px; 
+    -fx-min-height: 3px; 
+    -fx-max-width: 3px; 
+    -fx-max-height: 3px;
+} 

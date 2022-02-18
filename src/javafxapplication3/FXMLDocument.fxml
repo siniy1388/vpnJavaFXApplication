@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="1050.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication3.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <MenuBar prefHeight="29.0" prefWidth="713.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem fx:id="close" mnemonicParsing="false" onAction="#handleMenuCloseAction" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <SplitPane fx:id="spane0" dividerPositions="0.254606365159129" layoutX="1.0" layoutY="28.0" orientation="VERTICAL" prefHeight="599.0" prefWidth="566.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="-1.0" AnchorPane.topAnchor="28.0">
+        <items>
+          <AnchorPane fx:id="apane1" minHeight="0.0" minWidth="0.0" prefHeight="179.0" prefWidth="564.0">
+               <children>
+                  <Button fx:id="R1" layoutX="33.0" layoutY="20.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Route 1" />
+                  <Button fx:id="R2" layoutX="113.0" layoutY="20.0" mnemonicParsing="false" onAction="#handleButtonAction" styleClass="Button" stylesheets="@main.css" text="Route 2" />
+                  <Button fx:id="R3" layoutX="188.0" layoutY="20.0" mnemonicParsing="false" onAction="#handleButtonAction" stylesheets="@main.css" text="Route 3" />
+                  <Button fx:id="R4" layoutX="264.0" layoutY="20.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Route 4" />
+                  <Button fx:id="R5" layoutX="338.0" layoutY="20.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Route 5" />
+                    <Button fx:id="VPN" layoutX="464.0" layoutY="20.0" onAction="#handleButtonAction" text="Soft Proxy" />
+               </children>
+            </AnchorPane>
+          <AnchorPane fx:id="apane2" minHeight="0.0" minWidth="0.0" prefHeight="98.0" prefWidth="196.0">
+               <children>
+                  <ToggleButton id="Button" fx:id="bR1" layoutX="60.0" layoutY="90.0" mnemonicParsing="false" onAction="#handleToggleButtonAction" styleClass="Button" stylesheets="@main.css" />
+                  <ToggleButton id="Button2" fx:id="bR2" layoutX="200.0" layoutY="90.0" mnemonicParsing="false" onAction="#handleToggleButtonAction" styleClass="Button2" stylesheets="@main.css" />
+                  <ToggleButton id="Button3" fx:id="bR3" layoutX="350.0" layoutY="90.0" mnemonicParsing="false" onAction="#handleToggleButtonAction" styleClass="Button3" stylesheets="@main.css" />
+                  <ToggleButton id="Button4" fx:id="bR4" layoutX="500.0" layoutY="90.0" mnemonicParsing="false" onAction="#handleToggleButtonAction" styleClass="Button4" stylesheets="@main.css" /> 
+                  <ToggleButton id="Button5" fx:id="bR5" layoutX="650.0" layoutY="90.0" mnemonicParsing="false" onAction="#handleToggleButtonAction" styleClass="Button5" stylesheets="@main.css" /> 
+                  <ToggleButton id="Button6" fx:id="bR6" layoutX="800.0" layoutY="90.0" mnemonicParsing="false" onAction="#handleToggleButtonAction" styleClass="Button6" stylesheets="@main.css" /> 
+                  <ToggleButton id="Button7" fx:id="bR7" layoutX="950.0" layoutY="90.0" mnemonicParsing="false" onAction="#handleToggleButtonAction" styleClass="Button7" stylesheets="@main.css" />
+                  <Hyperlink id="chromium" fx:id="chromium" layoutX="40.0" layoutY="171.0" text="Install" visible="true" />
+                  <Hyperlink id="chrome" fx:id="chrome" layoutX="183.0" layoutY="171.0" text="Install" visible="true"/>
+                  <Hyperlink id="comodo" fx:id="comodo" layoutX="332.0" layoutY="171.0" text="Install" visible="true"/>
+                  <Hyperlink id="yandex" fx:id="yandex" layoutX="483.0" layoutY="171.0" text="Install" visible="true"/>
+                  <Hyperlink id="opera" fx:id="opera" layoutX="630.0" layoutY="171.0" text="Install" visible="true"/>
+                  <Hyperlink id="theworld" fx:id="theworld" layoutX="783.0" layoutY="171.0" text="Install" visible="true"/>
+                  <Hyperlink id="tor" fx:id="tor" layoutX="933.0" layoutY="171.0" text="Install" visible="true"/> 
+               </children>
+          </AnchorPane>
+        </items>
+      </SplitPane>
+    </children>
+</AnchorPane>
